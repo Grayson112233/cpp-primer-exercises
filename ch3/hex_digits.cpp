@@ -12,8 +12,7 @@ int main() {
 
     string result;
 
-    cout << "Enter a series of decimal numbers from 0 to 15" << endl;
-    cout << "separated by spaces, then hit enter." << endl;
+    cout << "Enter decimal numbers from 0 to 15. Enter 'q' when done." << endl;
 
     int n;
     while(cin >> n) {
