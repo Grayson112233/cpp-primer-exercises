@@ -10,12 +10,12 @@ int main() {
 	char unit;
 
 	cout << "Enter units (c/f): ";
-	if(!cin >> unit) {
+	if(!(cin >> unit)) {
 		cout << "You must enter a char value." << endl;
 		return 0;
 	}
 	cout << "Enter the value: ";
-	if(!cin >> temp) {
+	if(!(cin >> temp)) {
 		cout << "You must enter a numeric value" << endl;
 	}
 
